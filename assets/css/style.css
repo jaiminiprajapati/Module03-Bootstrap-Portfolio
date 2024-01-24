@@ -93,6 +93,8 @@ img{
     color: var(--color-brand);
 }
 
+
+
 @media (min-width: 992px){
     .navbar{
         min-height: 100vh;
@@ -108,6 +110,11 @@ img{
     .content-wrapper{
         padding-left: var(--sidebar-width);
     }
+}
+
+.btn{
+    padding: 12px 28px;
+    font-weight: 700;
 }
 
 .btn-brand{
